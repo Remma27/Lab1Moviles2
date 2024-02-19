@@ -1,9 +1,11 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import { Text, View, Linking } from 'react-native';
 import { style } from '../styles/style';
 
 const Reference = () => {
-    
+
     const handleLinkPress = () => {
         Linking.openURL('https://theghub.org/resources/783/download/Alvarado.pdf');
     };
