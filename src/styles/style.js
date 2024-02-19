@@ -70,4 +70,4 @@ import { Dimensions, StyleSheet} from 'react-native';
 				padding: 10,
 			}
 		});
-	
+		
