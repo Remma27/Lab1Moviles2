@@ -1,7 +1,7 @@
 import React from 'react';
 		import { ScrollView,  Text, View} from 'react-native';
 		import {style} from '../styles/style';
-
+		import CommentsSection from '../components/comments/CommentsSection';
 		const data = [
             
 		];
@@ -25,7 +25,15 @@ import React from 'react';
 								<Text>Créditos: {item.creditos}</Text>
 							</View>)}
 						</ScrollView>
+						 {/* Aqui llamo yo al js de los comentarios, GG 
+						 (NOTA: LOS COMENTARIOS AL PARECER NO SE LLEGAN A BORRAR, 
+						 PERO NO AFECTA LA ESTETICA PORQUE ESTAN METIDOS EN SU PROPIO SCROLL) */}
+						<CommentsSection />
+            
 					</View>
+					
+
+
 
 					<View style={style.divFooter}>
 						<Text style={style.textFooter}>Carrera de Tecnologías de Información</Text>
